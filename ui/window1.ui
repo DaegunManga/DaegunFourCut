@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">image: url(:/newPrefix/Windows (1).png);</string>
+  </property>
+  <widget class="QPushButton" name="StartButton">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-5</y>
+     <width>1920</width>
+     <height>1580</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Edwardian Script ITC</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 150px;
+font-weight: bold;
+color: navy;
+image: none;
+border: none;
+</string>
+   </property>
+   <property name="text">
+    <string>Touch To Continue</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../code/backgrounds.qrc"/>
+ </resources>
+ <connections/>
+</ui>

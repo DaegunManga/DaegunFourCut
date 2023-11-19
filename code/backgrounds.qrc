@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>checked.png</file>
+    <file>Windows (1).png</file>
+    <file>Windows (2).png</file>
+    <file>Windows (3).png</file>
+  </qresource>
+</RCC>
